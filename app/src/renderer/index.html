@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' data: file:; style-src 'self'; script-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video to GIF Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Video to GIF Converter</h1>
+      <p class="sub">Turn a video into a high-quality GIF. FFmpeg is built in, so there is nothing else to install.</p>
+    </header>
+
+    <section id="drop" class="drop" tabindex="0" role="button" aria-label="Choose a video file">
+      <p class="drop-title">Drop a video here</p>
+      <p class="sub">or</p>
+      <button id="pickBtn" class="primary">Choose video…</button>
+    </section>
+    <p id="message" class="message" role="alert" hidden></p>
+
+    <section id="videoSection" hidden>
+      <div class="list-head">
+        <h2 id="fileName"></h2>
+        <span id="videoInfo" class="sub"></span>
+      </div>
+
+      <div class="options">
+        <label>
+          <span>Frame rate (FPS)</span>
+          <input id="fps" type="number" min="1" max="60" step="1" value="10">
+          <small>10-15 recommended. Lower means a smaller file.</small>
+        </label>
+        <label>
+          <span>Width (pixels)</span>
+          <input id="width" type="number" min="16" max="7680" step="1" placeholder="Original">
+          <small>480-800 recommended. Height follows automatically.</small>
+        </label>
+        <label class="check">
+          <input id="loop" type="checkbox" checked>
+          <span>Loop forever</span>
+        </label>
+      </div>
+
+      <div class="actions">
+        <button id="convertBtn" class="primary">Convert &amp; save…</button>
+        <button id="cancelBtn" hidden>Cancel</button>
+      </div>
+
+      <div id="progressBox" hidden>
+        <progress id="progress" max="100" value="0"></progress>
+        <span id="progressText" class="sub">0%</span>
+      </div>
+
+      <div id="result" hidden>
+        <p id="resultText"></p>
+        <button id="showBtn">Show in folder</button>
+        <img id="resultImg" alt="Preview of the converted GIF">
+      </div>
+    </section>
+  </main>
+  <script src="renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+# imageio-ffmpeg ships a static FFmpeg binary, so no system FFmpeg is needed.
+imageio-ffmpeg>=0.5
