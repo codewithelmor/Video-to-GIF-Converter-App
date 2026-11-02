@@ -1,0 +1,38 @@
+{
+  "video": "video-to-gif-converter-demo-v1.0.0.mp4",
+  "duration": 74.7,
+  "scenes": [
+    {
+      "id": "s01",
+      "start": 3.3
+    },
+    {
+      "id": "s02",
+      "start": 15.46
+    },
+    {
+      "id": "s03",
+      "start": 21.84
+    },
+    {
+      "id": "s04",
+      "start": 28.2
+    },
+    {
+      "id": "s05",
+      "start": 39.39
+    },
+    {
+      "id": "s06",
+      "start": 50.29
+    },
+    {
+      "id": "s07",
+      "start": 57.48
+    },
+    {
+      "id": "s08",
+      "start": 61.9
+    }
+  ]
+}

@@ -2,6 +2,12 @@
 
 Turn a video into a high-quality GIF with a desktop app or the command line. It uses FFmpeg's two-pass palette technique (`palettegen` + `paletteuse`) to avoid the banding of a default GIF encode. **Everything is bundled**: the installer contains the app, its Python backend and FFmpeg, so there is nothing to install and no network access is needed.
 
+## Demo
+
+**[▶ Watch: Video to GIF Converter: Turn a Video into a GIF in Seconds](https://www.loom.com/share/0bb86f1d50a640ca9780481a601ad94e)**
+
+See the desktop app turn a short screen recording into a GIF. Choose the video, check the detected size, frame rate and length, set the FPS and width, and click Convert & save. The video shows the finished GIF previewed in the app and then opened in its folder. FFmpeg is built in, so there is nothing else to install.
+
 ## Features
 
 - **Drag and drop** a video (or choose one): `.mp4`, `.mkv`, `.mov`, `.avi`, `.webm`, `.m4v`, `.wmv`, `.flv`, `.mpg`, `.ts`, `.3gp`.
@@ -166,6 +172,62 @@ _Azure-Config-Converter-App/
 │   ├── cli.py
 │   ├── core.py
 │   └── requirements.txt
+├── docs
+│   └── product
+│       └── 10-launch
+│           ├── demo
+│           │   ├── audio
+│           │   │   ├── durations.json
+│           │   │   ├── s01.wav
+│           │   │   ├── s02.wav
+│           │   │   ├── s03.wav
+│           │   │   ├── s04.wav
+│           │   │   ├── s05.wav
+│           │   │   ├── s06.wav
+│           │   │   ├── s07.wav
+│           │   │   └── s08.wav
+│           │   ├── automation
+│           │   │   ├── input.ps1
+│           │   │   ├── make_voice.py
+│           │   │   ├── record-j1.mjs
+│           │   │   └── render-card.mjs
+│           │   ├── captions
+│           │   │   ├── video-to-gif-converter-demo-v1.0.0.srt
+│           │   │   └── video-to-gif-converter-demo-v1.0.0.vtt
+│           │   ├── exports
+│           │   │   ├── qc-frames
+│           │   │   │   ├── sheet-001.png
+│           │   │   │   ├── sheet-002.png
+│           │   │   │   └── sheet-003.png
+│           │   │   ├── chapters.txt
+│           │   │   └── timeline.json
+│           │   ├── recordings
+│           │   │   └── j1
+│           │   │       ├── markers.json
+│           │   │       ├── raw.mp4
+│           │   │       └── scene-1080.mp4
+│           │   ├── thumbnail
+│           │   │   ├── screenshots
+│           │   │   │   ├── 01-start.png
+│           │   │   │   ├── 02-info.png
+│           │   │   │   ├── 03-options.png
+│           │   │   │   ├── 04-save-dialog.png
+│           │   │   │   ├── 05-result.png
+│           │   │   │   └── 06-explorer.png
+│           │   │   ├── alt-text.md
+│           │   │   ├── end.png
+│           │   │   ├── thumbnail.jpg
+│           │   │   ├── thumbnail.png
+│           │   │   └── title.png
+│           │   ├── demo-plan.md
+│           │   ├── edit.json
+│           │   ├── feature-map.md
+│           │   ├── journeys.md
+│           │   ├── qc-report.md
+│           │   ├── scenes.json
+│           │   └── script.md
+│           └── marketing
+│               └── legal-check.md
 ├── scripts
 │   ├── build-all.ps1
 │   ├── build-all.sh

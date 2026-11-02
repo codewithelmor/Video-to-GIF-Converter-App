@@ -1,0 +1,10 @@
+# Alt text
+- thumbnail.png / thumbnail.jpg: "Headline 'Video to GIF in seconds' beside the Video to GIF Converter window showing a finished conversion: saved sample.gif (77 KB) and the GIF preview."
+- title.png: "Video to GIF Converter, version 1.0.0, next to the app window with the video sample.mp4 loaded."
+- end.png: "Pick a video. Choose two numbers. Get a GIF. Nothing else to install. Video to GIF Converter 1.0.0. Narration: AI-generated voice."
+- screenshots/01-start.png: "The app's start screen with a Drop a video here area and a Choose video button."
+- screenshots/02-info.png: "sample.mp4 loaded; the info line reads 1920x1080, 60 fps, 6.4 s, 4.5 MB; FPS 10, width empty, Loop forever checked."
+- screenshots/03-options.png: "FPS set to 12 and width set to 480 with Loop forever checked."
+- screenshots/04-save-dialog.png: "Windows Save As dialog while the progress bar sits behind it."
+- screenshots/05-result.png: "Saved sample.gif (77 KB) with the GIF preview and a Show in folder button."
+- screenshots/06-explorer.png: "File Explorer on the output folder with sample.gif selected."

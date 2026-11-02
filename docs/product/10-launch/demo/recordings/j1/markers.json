@@ -1,0 +1,53 @@
+{
+ "clock": "seconds since first captured frame",
+ "scenes": [
+  {
+   "id": "s01",
+   "start": 0,
+   "minSeconds": 12.16,
+   "end": 12.16
+  },
+  {
+   "id": "s02",
+   "start": 12.16,
+   "minSeconds": 6.38,
+   "end": 18.54
+  },
+  {
+   "id": "s03",
+   "start": 18.54,
+   "minSeconds": 6.35,
+   "end": 24.9
+  },
+  {
+   "id": "s04",
+   "start": 24.9,
+   "minSeconds": 11.19,
+   "end": 36.09
+  },
+  {
+   "id": "s05",
+   "start": 36.09,
+   "minSeconds": 10.89,
+   "end": 46.99
+  },
+  {
+   "id": "s06",
+   "start": 46.99,
+   "minSeconds": 7.18,
+   "end": 54.18
+  },
+  {
+   "id": "s07",
+   "start": 54.18,
+   "minSeconds": 4.41,
+   "end": 58.6
+  },
+  {
+   "id": "s08",
+   "start": 58.6,
+   "minSeconds": 6.93,
+   "end": 65.54
+  }
+ ]
+}

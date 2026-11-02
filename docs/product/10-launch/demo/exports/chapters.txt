@@ -1,0 +1,5 @@
+0:00 Introduction
+0:15 Choose a video
+0:28 Set FPS and width
+0:39 Convert and save
+0:50 Preview and show in folder

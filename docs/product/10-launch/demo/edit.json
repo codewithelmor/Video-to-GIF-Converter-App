@@ -1,0 +1,16 @@
+{
+  "name": "video-to-gif-converter-demo-v1.0.0",
+  "size": "1920x1080", "fps": 30,
+  "segments": [ { "video": "recordings/j1/scene-1080.mp4", "markers": "recordings/j1/markers.json", "trimStart": 0 } ],
+  "audioDir": "audio",
+  "voiceLead": 0.3,
+  "titleCard": "thumbnail/title.png", "titleSeconds": 3,
+  "endCard": "thumbnail/end.png", "endSeconds": 5,
+  "chapters": [
+    { "title": "Choose a video", "scene": "s02" },
+    { "title": "Set FPS and width", "scene": "s04" },
+    { "title": "Convert and save", "scene": "s05" },
+    { "title": "Preview and show in folder", "scene": "s06" }
+  ],
+  "exportsDir": "exports"
+}

@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "fps": 30,
+  "size": "1920x1080",
+  "scenes": [
+    {
+      "id": "s01",
+      "journey": "J1",
+      "title": "Open the app",
+      "voiceover": "Need a quick GIF from a screen recording? Video to GIF Converter makes one right on your desktop. FFmpeg is built in, so there is nothing else to install.",
+      "onscreen": "Nothing else to install",
+      "targetSeconds": 0
+    },
+    {
+      "id": "s02",
+      "journey": "J1",
+      "title": "Choose a video",
+      "voiceover": "Click Choose video, then pick your clip. This one is a short screen recording.",
+      "onscreen": "Choose a video",
+      "targetSeconds": 0
+    },
+    {
+      "id": "s03",
+      "journey": "J1",
+      "title": "Video info",
+      "voiceover": "The app reads the video and shows its size, frame rate, and length.",
+      "onscreen": "Size, frame rate, length",
+      "targetSeconds": 0
+    },
+    {
+      "id": "s04",
+      "journey": "J1",
+      "title": "Set options",
+      "voiceover": "Set the frame rate to twelve, and the width to four hundred eighty pixels. Lower numbers mean a smaller file. Loop forever is already on.",
+      "onscreen": "12 FPS, 480 px wide",
+      "targetSeconds": 0
+    },
+    {
+      "id": "s05",
+      "journey": "J1",
+      "title": "Convert and save",
+      "voiceover": "Click Convert and save, and choose where the GIF goes. A progress bar shows while it works. This short clip is done in about a second.",
+      "onscreen": "About 1 s on this PC",
+      "targetSeconds": 0
+    },
+    {
+      "id": "s06",
+      "journey": "J1",
+      "title": "GIF preview",
+      "voiceover": "When it finishes, the GIF plays right inside the app, and you can see how big the file is.",
+      "onscreen": "The GIF plays in the app",
+      "targetSeconds": 0
+    },
+    {
+      "id": "s07",
+      "journey": "J1",
+      "title": "Show in folder",
+      "voiceover": "Show in folder takes you straight to the saved file.",
+      "onscreen": "Show in folder",
+      "targetSeconds": 0
+    },
+    {
+      "id": "s08",
+      "journey": "J1",
+      "title": "Wrap up",
+      "voiceover": "Pick a video, choose two numbers, and get a GIF. Everything stays on your computer.",
+      "onscreen": "",
+      "targetSeconds": 0
+    }
+  ]
+}
